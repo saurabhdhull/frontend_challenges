@@ -1,28 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | QR code component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | QR code component</title>
 
-  Improve your front-end skills by building projects
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 50px;
+      }
+      body {
+        background-color: rgb(197, 210, 247);
+      }
+      .div {
+        height: 450px;
+        width: 300px;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 6rem;
+        /* text-align: center; */
+        line-height: 25px;
+      }
+      img {
+        height: 280px;
+        width: 270px;
+        border-radius: 9px;
+        margin: 15px;
+      }
+      .fstline {
+        font-size: 130%;
+        word-spacing: 3px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 20px;
+      }
+      .sndline {
+        font-size: 90%;
+        line-height: normal;
+        padding-top: 7px;
+        word-spacing: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <div class="div">
+        <img src="images/image-qr-code.png" alt="Qr code" /><br />
+        <div>
+          <span class="fstline"
+            ><strong>
+              Improve your front-end <br />skills by building projects</strong
+            ><br />
+          </span>
+          <div class="sndline">
+            Scan the QR code to visit Frontend <br />
+            Mentor and take your coding skills to <br />
+            the next level</
+          >
+        </div>
+      </div><br>
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Saurabh</a>.
-  </div>
-</body>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Saurabh</a>.
+      </div>
+    </center>
+  </body>
 </html>
